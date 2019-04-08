@@ -1,0 +1,37 @@
+.container-fluid {
+  background-color: #e66b6b;
+  height: 200px;
+}
+.container-fluid .text-center img {
+  margin-top: 30px;
+  width: 120px;
+  height: 110px;
+  color: #ffffff;
+}
+
+.text-center h2 {
+  font-size: 40px;
+}
+
+.container {
+  margin-top: 30px;
+}
+.container h1 {
+  font-size: 60px;
+}
+
+@media (max-width: 450px) {
+  .container-fluid h2 {
+    font-size: 30px;
+  }
+
+  .container h1 {
+    font-size: 40px;
+  }
+
+  .container .col-md-4 h3 {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
